@@ -18,4 +18,8 @@ public class Cellphone {
         this.owner = owner;
     }
 
+    public void dial(String phoneNum) {
+        System.out.println(owner + "'s phone is dialing " + phoneNum);
+    }
 }
+
